@@ -52,8 +52,8 @@ This project was built as part of a broader real estate market pricing and affor
 
 * Pagination: Pages 0 – 15
 
-#### ⚠️This scraper is intended for educational and research purposes only.
-#### Always review a website’s robots.txt and terms of service before scraping.
+##### ⚠️This scraper is intended for educational and research purposes only.
+##### Always review a website’s robots.txt and terms of service before scraping.
 
 ## Key Features & Implementation Details
 
@@ -75,7 +75,7 @@ This project was built as part of a broader real estate market pricing and affor
 
 ### 3️⃣ Robust Listing Date Parsing
 
-Listing dates appear in inconsistent formats such as:
+##### Listing dates appear in inconsistent formats such as:
 
 * Added Today
 
@@ -85,7 +85,7 @@ Listing dates appear in inconsistent formats such as:
 
 * Updated 03 Dec 2023
 
-A custom date parser:
+##### A custom date parser:
 
 * Handles relative dates
 
@@ -140,24 +140,24 @@ This creates a structured property_type field for analysis.
 
 #### 1. Clone the repository
 
-git clone https://github.com/ololade003/ibadan-property-scraper.git
+* git clone https://github.com/ololade003/Ibadan-rental-Property-Web-Scraper.git
 
 
 #### 2. Install dependencies
 
-pip install requests beautifulsoup4 pandas numpy openpyxl
+* pip install requests beautifulsoup4 pandas numpy openpyxl
 
 
 #### 3. Update the path to the Ibadan areas reference file:
 
-streets_df = pd.read_excel("path/to/ibadan_areas_reference_only.xlsx")
+* streets_df = pd.read_excel("path/to/ibadan_areas_reference_only.xlsx")
 
 
 #### 4. Run the notebook or script
 
 #### 5. Output file:
 
-Ibadan_city_homes_for_rent.csv
+* Ibadan_city_homes_for_rent.csv
 
 ## 🔮 Possible Enhancements
 
