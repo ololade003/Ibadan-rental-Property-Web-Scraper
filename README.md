@@ -153,9 +153,9 @@ pip install requests beautifulsoup4 pandas numpy openpyxl
 streets_df = pd.read_excel("path/to/ibadan_areas_reference_only.xlsx")
 
 
-### 4. Run the notebook or script
+#### 4. Run the notebook or script
 
-### 5. Output file:
+#### 5. Output file:
 
 Ibadan_city_homes_for_rent.csv
 
